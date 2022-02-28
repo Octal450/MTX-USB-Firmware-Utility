@@ -41,11 +41,11 @@ namespace MTX_USB_Firmware_Utility
             this.label2 = new System.Windows.Forms.Label();
             this.mtxProgressBar = new System.Windows.Forms.ProgressBar();
             this.FailedPage = new AeroWizard.WizardPage();
+            this.txtConsole1 = new System.Windows.Forms.TextBox();
             this.failedReason = new System.Windows.Forms.Label();
             this.FinishPage = new AeroWizard.WizardPage();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtConsole2 = new System.Windows.Forms.TextBox();
-            this.txtConsole1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.MtxWizard)).BeginInit();
             this.SelPage.SuspendLayout();
             this.BusyPage.SuspendLayout();
@@ -150,7 +150,7 @@ namespace MTX_USB_Firmware_Utility
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(0, 4);
+            this.label2.Location = new System.Drawing.Point(0, 2);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(173, 15);
             this.label2.TabIndex = 5;
@@ -158,7 +158,7 @@ namespace MTX_USB_Firmware_Utility
             // 
             // mtxProgressBar
             // 
-            this.mtxProgressBar.Location = new System.Drawing.Point(4, 24);
+            this.mtxProgressBar.Location = new System.Drawing.Point(4, 22);
             this.mtxProgressBar.MarqueeAnimationSpeed = 50;
             this.mtxProgressBar.Name = "mtxProgressBar";
             this.mtxProgressBar.Size = new System.Drawing.Size(470, 23);
@@ -173,14 +173,26 @@ namespace MTX_USB_Firmware_Utility
             this.FailedPage.Controls.Add(this.failedReason);
             this.FailedPage.IsFinishPage = true;
             this.FailedPage.Name = "FailedPage";
+            this.FailedPage.ShowCancel = false;
             this.FailedPage.Size = new System.Drawing.Size(507, 247);
             this.FailedPage.TabIndex = 3;
             this.FailedPage.Text = "Firmware Operation Failed";
             // 
+            // txtConsole1
+            // 
+            this.txtConsole1.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtConsole1.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtConsole1.Location = new System.Drawing.Point(4, 46);
+            this.txtConsole1.Multiline = true;
+            this.txtConsole1.Name = "txtConsole1";
+            this.txtConsole1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtConsole1.Size = new System.Drawing.Size(470, 198);
+            this.txtConsole1.TabIndex = 9;
+            // 
             // failedReason
             // 
             this.failedReason.AutoSize = true;
-            this.failedReason.Location = new System.Drawing.Point(4, 4);
+            this.failedReason.Location = new System.Drawing.Point(2, 2);
             this.failedReason.Name = "failedReason";
             this.failedReason.Size = new System.Drawing.Size(76, 15);
             this.failedReason.TabIndex = 0;
@@ -199,15 +211,6 @@ namespace MTX_USB_Firmware_Utility
             this.FinishPage.TabIndex = 2;
             this.FinishPage.Text = "Firmware Operation Completed";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 4);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(307, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Successfully completed the operation! Click Finish to exit";
-            // 
             // txtConsole2
             // 
             this.txtConsole2.BackColor = System.Drawing.SystemColors.WindowText;
@@ -219,16 +222,14 @@ namespace MTX_USB_Firmware_Utility
             this.txtConsole2.Size = new System.Drawing.Size(470, 198);
             this.txtConsole2.TabIndex = 8;
             // 
-            // txtConsole1
+            // label1
             // 
-            this.txtConsole1.BackColor = System.Drawing.SystemColors.WindowText;
-            this.txtConsole1.ForeColor = System.Drawing.SystemColors.Window;
-            this.txtConsole1.Location = new System.Drawing.Point(4, 46);
-            this.txtConsole1.Multiline = true;
-            this.txtConsole1.Name = "txtConsole1";
-            this.txtConsole1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtConsole1.Size = new System.Drawing.Size(470, 198);
-            this.txtConsole1.TabIndex = 9;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(2, 2);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(307, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Successfully completed the operation! Click Finish to exit";
             // 
             // MainForm
             // 
