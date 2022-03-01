@@ -55,9 +55,6 @@ namespace MTX_USB_Firmware_Utility
             // 
             // MtxWizard
             // 
-            this.MtxWizard.BackColor = System.Drawing.Color.White;
-            this.MtxWizard.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MtxWizard.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MtxWizard.Location = new System.Drawing.Point(0, 0);
             this.MtxWizard.Name = "MtxWizard";
             this.MtxWizard.Pages.Add(this.SelPage);
@@ -66,7 +63,6 @@ namespace MTX_USB_Firmware_Utility
             this.MtxWizard.Pages.Add(this.FinishPage);
             this.MtxWizard.Size = new System.Drawing.Size(554, 401);
             this.MtxWizard.TabIndex = 0;
-            this.MtxWizard.Text = "MTX USB Firmware Utility";
             this.MtxWizard.Title = "MTX USB Firmware Utility";
             this.MtxWizard.TitleIcon = ((System.Drawing.Icon)(resources.GetObject("MtxWizard.TitleIcon")));
             // 

@@ -71,8 +71,8 @@
     <ApplicationIcon>Project3.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AeroWizard, Version=2.2.9.0, Culture=neutral, PublicKeyToken=915e74f5d64b8f37, processorArchitecture=MSIL">
-      <HintPath>packages\AeroWizard.2.2.9\lib\net40\AeroWizard.dll</HintPath>
+    <Reference Include="AeroWizard, Version=2.3.1.0, Culture=neutral, PublicKeyToken=915e74f5d64b8f37, processorArchitecture=MSIL">
+      <HintPath>packages\AeroWizard.2.3.1\lib\net40\AeroWizard.dll</HintPath>
     </Reference>
     <Reference Include="BootloaderInterface">
       <HintPath>.\BootloaderInterface.dll</HintPath>
